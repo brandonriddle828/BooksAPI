@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "QVn-CgAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QVn-CgAAQBAJ",
+      "volumeInfo": {
+        "title": "The Way of Kings",
+        "authors": [
+          "Brandon Sanderson"
+        ],
+        "description": "Introduces the world of Roshar through the experiences of a war-weary royal compelled by visions, a highborn youth condemned to military slavery, and a woman who is desperate to save her impoverished house."
+      }
+    }
+  ]
+}

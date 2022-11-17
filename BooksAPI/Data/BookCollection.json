@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "c68b13fc-bd3b-46e9-830a-68ea3ebf15b7",
+		"name": "BookCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24366756"
+	},
+	"item": [
+		{
+			"name": "TheWayOfKings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=thewayofkings&fields=items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)&maxResults=1&projection=lite&key=AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "thewayofkings"
+						},
+						{
+							"key": "fields",
+							"value": "items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "projection",
+							"value": "lite"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AssasinsApprentice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=assasins%20apprentice&fields=items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)&maxResults=1&projection=lite&key=AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "assasins%20apprentice"
+						},
+						{
+							"key": "fields",
+							"value": "items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "projection",
+							"value": "lite"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TheLastWish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=the%20last%20wish&fields=items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)&maxResults=1&projection=lite&key=AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "the%20last%20wish"
+						},
+						{
+							"key": "fields",
+							"value": "items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "projection",
+							"value": "lite"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TheEyeOfTheWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=eye%20of%20the%20world&fields=items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)&maxResults=1&projection=lite&key=AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "eye%20of%20the%20world"
+						},
+						{
+							"key": "fields",
+							"value": "items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "projection",
+							"value": "lite"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WhereTheRedFernGrows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=red%20fern&fields=items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)&maxResults=1&projection=lite&key=AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "red%20fern"
+						},
+						{
+							"key": "fields",
+							"value": "items(id,selfLink,volumeInfo/description,volumeInfo/title,volumeInfo/authors)"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "projection",
+							"value": "lite"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAnAY0PBhrFn3bNMB3zubKjpE3wh6lV0OY"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
